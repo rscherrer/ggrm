@@ -9,6 +9,12 @@ An R package with wrappers around `ggplot2` functions to allow removing chunks o
 devtools::install_github("rscherrer/ggrm")
 ```
 
+## Prerequisites
+
+* R (>= 4.2.1)
+
+(`ggplot2` is automatically installed as a dependency of `ggrm`.)
+
 ## Functions
 
 * `rm_axis()` to remove either axis completely
