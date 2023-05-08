@@ -1,4 +1,4 @@
-# ggrm
+# ggrm: Remove Stuff from ggplot
 
 An R package with wrappers around `ggplot2` functions to allow removing chunks of `ggplot` objects with one-liners. For example, the function `rm_axis()` removes the ticks, the text, the title and the bar that compose an axis --- no need to write `element_blank()` many times within the `theme()` function.
 
