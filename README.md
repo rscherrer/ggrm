@@ -4,19 +4,19 @@ An R package with wrappers around `ggplot2` functions to allow removing chunks o
 
 ## Install
 
-```r
+``` r
 # install.packages("devtools") # if not installed already
 devtools::install_github("rscherrer/ggrm")
 ```
 
 ## Functions
 
-* `rm_axis()` to remove either axis completely
-* `rm_strips()` to remove strips and labels from facets (when using `facet_wrap()` or `facet_grid()`)
+-   `rm_axis()` to remove either axis completely
+-   `rm_strips()` to remove strips and labels from facets (when using `facet_wrap()` or `facet_grid()`)
 
 ## Example usage
 
-```r
+``` r
 library(ggplot2)
 library(ggrm)
 
@@ -27,3 +27,14 @@ ggplot(data, aes(x = x, y = x)) +
   rm_axis("x") # will remove the x-axis completely
 ```
 
+## Output
+
+One of the main use cases I had was to turn this sort of plot:
+
+![](figures/before.png)
+
+into this sort of plot:
+
+![](figures/after.png)
+
+Thus saving some space by removing redundant axes and facet strips!

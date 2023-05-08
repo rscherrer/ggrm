@@ -1,0 +1,13 @@
+citHeader("To cite ggrm in publications use:")
+
+citEntry(
+  entry    = "Manual",
+  title    = "Ggrm: Remove Stuff From Ggplot",
+  author   = "Raphaël Scherrer",
+  year     = 2023,
+  note     = "R package version 0.1.0",
+  url      = "https://github.com/rscherrer/ggrm",
+  textVersion = paste(
+
+  )
+)
