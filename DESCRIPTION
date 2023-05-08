@@ -1,7 +1,7 @@
 Package: ggrm
 Type: Package
 Title: Remove Stuff From Ggplot
-Version: 0.1.0
+Version: 1.0.0
 Author: Raphaël Scherrer
 Maintainer: Raphaël Scherrer <raphael.scherrer@evobio.eu>
 Description: This package provides wrapper functions to remove elements from
