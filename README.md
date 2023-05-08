@@ -11,7 +11,7 @@ devtools::install_github("rscherrer/ggrm")
 
 ## Prerequisites
 
-* R (>= 4.2.1)
+-   R (\>= 4.2.1)
 
 (`ggplot2` is automatically installed as a dependency of `ggrm`.)
 
@@ -37,10 +37,10 @@ ggplot(data, aes(x = x, y = x)) +
 
 One of the main use cases I had was to turn this sort of plot:
 
-![](figures/before.png)
+<img src="figures/before.png" width="50%" height="50%"/>
 
 into this sort of plot:
 
-![](figures/after.png)
+<img src="figures/after.png" width="50%" height="50%"/>
 
 Thus saving some space by removing redundant axes and facet strips!
